@@ -62,6 +62,10 @@ ubuntu@ubuntu:~$ cd minecraft/official
 数分待つと、途中で管理者ユーザーの設定を求められます。最低１ユーザー入力してください。<br>
 最後に **『Creating minecraft ... done』** と表示されれば成功です。
 
+> 【ヒント】  
+> `./official_build.sh: line 37: python: command not found` と実行に失敗する場合は、 `./official_build3.sh` をお試しください。  
+>
+
 ```sh
 ubuntu@ubuntu:~$ ./official_build.sh
 Get:1 http://security.ubuntu.com/ubuntu xenial-security InRelease [109 kB]
